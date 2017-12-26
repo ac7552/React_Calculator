@@ -89,11 +89,11 @@ class Board extends React.Component {
    }
 
    render() {
-     const status = <h2> "Demo Calc Test" </h2>
-     const total = <h3>Total: {this.state.total}</h3>;
-     const textbox = <div>{this.current_evaluation()}</div>
+     const status = <h2> Demo Calc Test </h2>
+     const total = <h3 id="total">Total: {this.state.total}</h3>;
+     const textbox = <div id="evaluation">{this.current_evaluation()}</div>
      return (
-       <div id="Board">
+       <div id="board">
           {status}
           {textbox}
          <div className="board-row">
