@@ -1,6 +1,5 @@
 
 
-# Timbre
 
 
 This is a small react calculator web app 
